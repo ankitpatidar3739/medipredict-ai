@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+
+# Virtual env
+venv/
+env/
+.env
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Large model files — we'll handle separately
+# models/*.pkl   ← DO NOT ignore, we need these
+
+# User data (local only)
+users.json
+
+# PDF reports generated
+*.pdf
+
+# Jupyter
+.ipynb_checkpoints/
